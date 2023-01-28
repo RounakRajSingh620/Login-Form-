@@ -86,11 +86,21 @@ input:focus::placeholder{
 
 .alert-box{
     position: absolute;
-    top: 10%;
+    top: -100%;
     left: 50%;
     transform: translateX(-50%);
     min-width: 150px;
     max-width: 90%;
     width: auto;
     height: auto;
+    padding: 10px;
+    text-transform: capitalize;
+    background: rgb(225, 119, 119);
+    border-top: 10px solid rgb(255, 37, 37);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #000;
+    font-family: 'roboto',sans-serif;
+    text-align: center;
+    transition: 1s;
 }
